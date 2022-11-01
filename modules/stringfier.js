@@ -1,7 +1,6 @@
-import { Store } from './store.js';
+import Store from './store.js';
 
-const Stringifier = (() => {
+export default function Stringifier() {
   const updatedBooks = JSON.stringify(Store.books);
   localStorage.setItem('book', updatedBooks);
-});
-export { Stringifier };
+}

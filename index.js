@@ -1,9 +1,8 @@
 /* eslint-disable no-use-before-define */
 /* eslint-disable no-unused-vars */
-import { Store } from '../modules/store.js';
-import { title, author, form } from '../modules/displayBook.js';
-import { Stringifier } from '../modules/stringfier.js';
-import { DateTime } from './modules/luxon.min.js';
+import Store from './modules/store.js';
+import { title, author, form } from './modules/displayBook.js';
+import Stringifier from './modules/stringfier.js';
 
 let oldBooks = localStorage.getItem('book');
 if (oldBooks !== null) {
