@@ -1,24 +1,23 @@
 {
-  "name": "AwesomeBooksWithES6",
+  "name": "microverse_capstone-1",
   "version": "1.0.0",
-  "description": "This is Awesome books project with ES6",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aster-alemu/AwesomeBooksWithES6.git"
+    "url": "git+https://github.com/yonas44/Microverse_capstone-1.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aster-alemu/AwesomeBooksWithES6/issues"
+    "url": "https://github.com/yonas44/Microverse_capstone-1/issues"
   },
-  "homepage": "https://github.com/aster-alemu/AwesomeBooksWithES6#readme",
+  "homepage": "https://github.com/yonas44/Microverse_capstone-1#readme",
   "devDependencies": {
-    "@hint/connector-local": "^3.2.24",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -28,6 +27,5 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "^3.21.0"
-  },
-  "dependencies": {}
+  }
 }
